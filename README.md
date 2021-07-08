@@ -28,3 +28,7 @@ Sync your database first time
 py manage.py makemigrations
 py manage.py migrate
 ```
+
+```
+py manage.py createsuperuser
+```
