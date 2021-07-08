@@ -21,3 +21,10 @@ django-admin startapp quickstart
 cd ..
 
 ```
+
+Sync your database first time
+
+```
+py manage.py makemigrations
+py manage.py migrate
+```
