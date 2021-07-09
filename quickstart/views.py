@@ -3,7 +3,7 @@ from django.contrib.auth.models import User, Group
 from rest_framework import viewsets
 from rest_framework import permissions
 from rest_framework.serializers import Serializer
-from .serializers import UserSerializer, GroupSerializer
+from .serializers import GroupSerializer, UserSerializer
 
 
 # Create your views here.
